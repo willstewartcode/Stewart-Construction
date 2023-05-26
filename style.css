@@ -1,0 +1,187 @@
+:root {
+    --OFF-WHITE: #f7f7ff;
+    --OFF-BLACK: #2a2b2e;
+    --BLUE: #4463ee;
+    --GOLD: #FFC533;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 120px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--OFF-WHITE);
+    color: var(--OFF-BLACK);
+}
+
+h3 {
+    color: var(--BLUE);
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--GOLD);
+    width: fit-content;
+}
+
+#header-img {
+    margin-bottom: 100px;
+}
+
+.container .row .col-lg-6.logo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    background-color: var(--OFF-WHITE) !important;
+    height: 100%;
+}
+
+#navbarSupportedContent {
+    margin-right: -36px;
+}
+
+#navbarSupportedContent .navbar-nav {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav-item {
+    background-color: var(--OFF-WHITE);
+    border: 2px solid var(--BLUE);
+    flex: 1;
+    margin: 0 8px;
+    text-align: center;
+}
+
+.nav-item a {
+    color: var(--BLUE) !important;
+}
+
+.nav-item a:hover {
+    color: var(--OFF-WHITE) !important;
+    background-color: var(--BLUE);
+}
+
+.container .row .col.section-heading h3 {
+    margin: auto;
+}
+
+.container.testimonies {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container .row.client-testimony {
+    margin-top: 50px;
+}
+
+.container .row.client-testimony.second p {
+    text-align: right;
+}
+
+footer {
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    margin-top: 120px;
+    color: var(--BLUE);
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.services-image-wrapper {
+    width: 33%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.services-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-image:hover {
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+
+.services-image a {
+    color: white;
+    font-size: 1.6rem;
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    text-decoration: none;
+    transition: background-color .3s ease-in-out;
+}
+
+.services-image a:hover {
+    background-color: rgba(68,99,238,.6);
+}
+
+.image-caption {
+    margin-top: 1rem;
+}
+
+.container .row.portfolio-pieces {
+    margin-top: 50px;
+}
+
+#modern-house-3 {
+    background-image: url('images/modern_house_3.jpg');
+}
+
+#modern-house {
+    background-image: url('images/modern_house.jpg');
+}
+
+#modern-house-4 {
+    background-image: url('images/modern_house_4.jpg');
+}
+
+#modern-house-5 {
+    background-image: url('images/modern_house_5.jpg');
+}
+
+#modern-house-6 {
+    background-image: url('images/modern_house_6.jpg');
+}
+
+#house-interior {
+    background-image: url('images/house_interior.jpg');
+}
+
+#house-interior-2 {
+    background-image: url('images/house_interior_2.jpg');
+}
+
+#house-interior-3 {
+    background-image: url('images/house_interior_3.jpg');
+}
+
+#house-interior-4 {
+    background-image: url('images/house_interior_4.jpg');
+}
+
+#social-icons {
+    justify-content: flex-end;
+    margin-right: -35px;
+}
+
+#social-links img {
+    width: 30px;
+}
