@@ -50,21 +50,34 @@ nav .container-fluid {
     background-color: var(--BLUE);
 }
 
-.container .row .col.section-heading h3 {
+.section-heading {
+    margin-bottom: 2rem;
+}
+
+.section-heading h3 {
     margin: auto;
 }
 
-.container.testimonies {
+.testimonies {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.container .row.client-testimony {
-    margin-top: 50px;
+.client-testimony {
+    border: 1px solid red;
+    margin-bottom: 2rem;
 }
 
-.container .row.client-testimony.second p {
-    text-align: right;
+.testimony-img {
+    /* border: 1px solid green; */
+}
+
+.testimony-msg {
+    /* border: 1px solid blue; */
+}
+
+.testimony-msg p {
+    margin-bottom: 0;
 }
 
 footer {
