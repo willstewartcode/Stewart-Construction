@@ -24,6 +24,10 @@ h3 {
     width: fit-content;
 }
 
+header {
+    margin-bottom: 100px;
+}
+
 nav {
     padding: 20px 40px !important;
 }
@@ -34,7 +38,6 @@ nav .container-fluid {
 
 .nav-item {
     background-color: var(--OFF-WHITE);
-    border: 2px solid var(--BLUE);
     text-align: center;
 }
 
@@ -135,7 +138,6 @@ footer {
     background-size: cover;
     background-position: center center;
     background-color: var(--BLUE);
-    border: 1px solid red;
 }
 
 #header-img h1 {
