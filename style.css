@@ -24,10 +24,6 @@ h3 {
     width: fit-content;
 }
 
-header {
-    margin-bottom: 100px;
-}
-
 nav {
     padding: 20px 40px !important;
 }
@@ -64,16 +60,7 @@ nav .container-fluid {
 }
 
 .client-testimony {
-    /* border: 1px solid red; */
     margin-bottom: 2rem;
-}
-
-.testimony-img {
-    /* border: 1px solid green; */
-}
-
-.testimony-msg {
-    /* border: 1px solid blue; */
 }
 
 .testimony-msg p {
@@ -205,6 +192,13 @@ footer {
 
 #social-links img {
     width: 30px;
+}
+
+/* 
+    FOOTER
+*/
+footer {
+    
 }
 
 @media (max-width: 991px) {
