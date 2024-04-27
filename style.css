@@ -5,16 +5,14 @@
     --GOLD: #FFC533;
 }
 
-html {
-    position: relative;
-    min-height: 100%;
-    padding-bottom: 120px;
-}
-
 body {
     font-family: sans-serif;
     background-color: var(--OFF-WHITE);
     color: var(--OFF-BLACK);
+}
+
+header {
+    margin-bottom: 50px;
 }
 
 h3 {
