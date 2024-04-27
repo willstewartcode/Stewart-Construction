@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     background-color: var(--OFF-WHITE);
     color: var(--OFF-BLACK);
 }
@@ -24,6 +24,11 @@ h3 {
 
 nav {
     padding: 20px 40px !important;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 nav .container-fluid {
@@ -144,7 +149,7 @@ footer {
 
 #header-img h1 {
     color: white;
-    
+    margin-bottom: 0;
 }
 
 #modern-house-3 {
