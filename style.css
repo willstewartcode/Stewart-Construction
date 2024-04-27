@@ -27,14 +27,34 @@ h3 {
 .card {
     background-color: var(--OFF-WHITE);
     border: none;
+    overflow: hidden;
 }
 
-.card-body {
-    padding: 24px;
+.card-img-overlay {
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(68, 99, 238, 0.75);
+}
+
+.card-img-overlay .btn {
+    width: fit-content;
+    background: none;
+    color: var(--OFF-WHITE);
+    border: 1px solid var(--OFF-WHITE);
+    outline: none;
+    font-weight: 600;
+}
+
+.card-img-overlay .btn:hover,
+.card-img-overlay .btn:active {
+    color: var(--OFF-BLACK);
+    background-color: var(--GOLD);
+    border: 1px solid var(--GOLD);
 }
 
 .card-title {
-    color: var(--BLUE);
+    color: var(--OFF-WHITE);
     border-bottom: 2px solid var(--GOLD);
     width: fit-content;
 }
@@ -148,7 +168,6 @@ footer {
 /* 
     Background images
 */
-
 #header-img {
     background-image: url(images/header_modern_house.jpg);
     width: 100%;
