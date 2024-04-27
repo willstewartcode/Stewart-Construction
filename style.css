@@ -83,12 +83,15 @@ nav .container-fluid {
 }
 
 .nav-item a {
-    color: var(--BLUE) !important;
+    color: var(--BLUE);
 }
 
-.nav-item a:hover {
+.nav-link:hover,
+.dropdown-item:hover,
+.nav-link:active,
+.dropdown-item.active {
     color: var(--OFF-WHITE) !important;
-    background-color: var(--BLUE);
+    background-color: var(--BLUE) !important;
 }
 
 .section-heading {
