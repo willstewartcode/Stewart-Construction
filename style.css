@@ -129,6 +129,11 @@ nav .container-fluid {
     margin-bottom: 0;
 }
 
+.form-check-input:checked {
+    background-color: var(--BLUE);
+    border-color: var(--BLUE);
+}
+
 footer {
     padding: 40px;
 }
