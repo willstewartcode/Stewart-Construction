@@ -19,13 +19,12 @@ header {
 
 h3 {
     color: var(--BLUE);
-    padding-bottom: 5px;
     border-bottom: 2px solid var(--GOLD);
     width: fit-content;
 }
 
 hr {
-    margin: 2rem 0;
+    margin: 3rem 0;
     opacity: .15;
 }
 
@@ -116,17 +115,11 @@ nav .container-fluid {
     margin: auto;
 }
 
-.testimonies {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.client-testimony {
-    margin-bottom: 2rem;
-}
-
-.testimony-msg p {
-    margin-bottom: 0;
+/* 
+    TESTIMONIALS
+*/
+#testimonials h3 {
+    margin-bottom: 2rem !important;
 }
 
 .form-check-input:checked {
