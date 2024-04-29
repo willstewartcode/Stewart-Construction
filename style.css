@@ -92,13 +92,14 @@ nav .container-fluid {
     text-align: center;
 }
 
-.nav-item a {
+.nav-link {
     color: var(--BLUE);
+    padding: .5rem 1rem !important;
 }
 
 .nav-link:hover,
 .dropdown-item:hover,
-.nav-link:active,
+.nav-link.active,
 .dropdown-item.active {
     color: var(--OFF-WHITE) !important;
     background-color: var(--BLUE) !important;
